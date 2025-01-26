@@ -32,4 +32,14 @@ export class AppComponent {
       this.display = 'ERROR';
     }
   }
+
+  //履歴処理
+  save = (): void => {
+    //処理内容
+  }
+
+  //履歴クリア処理
+  historyClear = (): void => {
+    //処理内容
+  }
 }
