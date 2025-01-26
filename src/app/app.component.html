@@ -9,8 +9,10 @@
                   <input type="text" class="form-control mb-3 text-right" [value]="display" readonly>
 
                   <div class="btn-group d-flex mb-2" role="group">
-                      <button class="btn btn-danger w-75" (click)="clear()">C</button>
-                      <button class="btn btn-success w-25" (click)="appendInput('/')">/</button>
+                      <button class="btn btn-secondary w-100" (click)="clear()">H</button> <!-- H = Histroy -->
+                      <button class="btn btn-secondary w-100" (click)="clear()">HC</button> <!-- HC Histroy Clear -->
+                      <button class="btn btn-danger w-100" (click)="clear()">C</button>
+                      <button class="btn btn-success w-100" (click)="appendInput('/')">/</button>
                   </div>
                   <div class="btn-group d-flex mb-2" role="group">
                       <button class="btn btn-light w-100" (click)="appendInput('7')">7</button>
